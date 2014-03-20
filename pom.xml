@@ -232,4 +232,16 @@
             </build>
         </profile>
     </profiles>
+    <distributionManagement>
+        <repository>
+	    <id>Test-Release</id>
+	    <name>Test-Release</name>
+	    <url>http://fcloud.com:8081/nexus/content/repositories/Test-Release</url>
+	</repository>
+	<snapshotRepository>
+            <id>Test-Snapshot</id>
+            <name>Test-Snapshot</name>
+            <url>http://fcloud.com:8081/nexus/content/repositories/Test-Snapshot</url>
+	</snapshotRepository>
+    </distributionManagement>
 </project>
